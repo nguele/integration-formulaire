@@ -61,20 +61,26 @@ input{
 	width:455px;
 }
 input[type=password]{
+	width: 455px;
+    border-radius: 4px;
+    background-color: white;
     background-image: url('../img/vue.png');
+    background-position: 1px 1px; 
     background-repeat: no-repeat;
 }
 .bt2{
 	display: flex;
     flex-wrap: wrap;
+	background-color:#f2f2f2;
 }
 .bt{
 	display:flex;
+	display: flex;
     flex-wrap: wrap;
  }
 .bt>button{
 	margin:5px 5px 5px 5px;
-	background-color:#f2f2f2; /* blue */
+	background-color:#e4dada; /* blue */
     border: none;
 	color: black;
 	padding: 10pxS;
@@ -88,7 +94,7 @@ input[type=password]{
 }
 .bt2>button{
 	margin:5px 5px 5px 5px;
-	background-color:#f2f2f2; /* blue */
+	background-color:#e4dada; /* blue */
     border: none;
 	color: black;
 	padding: 10pxS;
@@ -150,17 +156,17 @@ input[type="checkbox"]
 	display: flex;
 	margin-top: -50px;
 	margin-left:410px;
-	background-color: #b8c2ca;
+	background-color: #999999;
 	border-radius: 3px;
 }
 #bascule1:checked ~ .bascule_label
 {
-	background-color: #999999;
+	background-color: #3498db;
 	color: #fff;
 }
 
 #bascule1:not(:checked) ~ .bascule_label2
 {
-	background-color: #3498db;
+	background-color: #b8c2ca;
 	color: #fff;
 }

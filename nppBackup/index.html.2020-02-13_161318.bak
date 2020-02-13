@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="assets/css/page.css" type="text/css">
-		<title>formulaire metéo job</title>
+		<title>formulaire meteo job</title>
 	</head>
 	<body>
 		<main>
@@ -30,7 +30,7 @@
 						<input type="password" name="mdp" id="mdp" width="50px" required placeholder="Choisissez votre mot de passe">
 						</div>
 					<div class="bloc5">
-						<label for="texte">Postes recherchés</label>
+						<label for="texte">Postes recherche</label>
 						<input type="texte" class="form-control" id="texte" placeholder="Ex: chef de projet, cusinier..." name="texte">
 					</div>
 					<div class="bloc6">
@@ -38,23 +38,23 @@
 						<input type="texte" class="form-control" id="pwd" placeholder="Ex: essonne,Nantes, Bretagne" name="texte">
 					</div>
 					<div class="bouton">
-						<p>Types de contrats recherchés</p>
+						<p>Types de contrats recherches</p>
 						<div class="bt">
 							<button class="but1">CDI</button>
 							<button class="but1">CDD</button>
-							<button class="but1">Indépendant/<br>Franchise</button>
-							<button class="but1">Intérim</button>
+							<button class="but1">Independant/<br>Franchise</button>
+							<button class="but1">Interim</button>
 						</div>
 						<div class="bt2">
 							<button class="but1">Stage</button>
 							<button class="but1">Alternance/<br>Apprentissage</button>
 							<p>+ de type de contrat</p>
 						</div>
-						<p> j'accepte les <u>conditions générales</u> pour créer mon compte,<br>bénéficier des services de matching et postuler aux offres:</p>
+						<p> j'accepte les <u>conditions generales</u> pour creer mon compte,<br>beneficier des services de matching et postuler aux offres:</p>
 						<div class="box1">
 							<input type="checkbox" id="bascule1" name="bascule" checked="">
-							<label class="bascule_label2" for="bascule12">OUI</label>
-							<label class="bascule_label" for="bascule1">NON</label>
+							<label class="bascule_label" for="bascule1">oui</label>
+							<label class="bascule_label2" for="bascule12">non</label>
 				      </div>
 						<button class="but6">Continuer</button>
 					</div>

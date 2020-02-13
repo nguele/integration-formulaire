@@ -155,12 +155,12 @@ input[type="checkbox"]
 }
 #bascule1:checked ~ .bascule_label
 {
-	background-color: #999999;
+	background-color: #3498db;
 	color: #fff;
 }
 
 #bascule1:not(:checked) ~ .bascule_label2
 {
-	background-color: #3498db;
+	background-color: #b8c2ca;
 	color: #fff;
 }

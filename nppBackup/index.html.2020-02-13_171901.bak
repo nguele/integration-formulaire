@@ -53,8 +53,8 @@
 						<p> j'accepte les <u>conditions générales</u> pour créer mon compte,<br>bénéficier des services de matching et postuler aux offres:</p>
 						<div class="box1">
 							<input type="checkbox" id="bascule1" name="bascule" checked="">
-							<label class="bascule_label2" for="bascule12">OUI</label>
-							<label class="bascule_label" for="bascule1">NON</label>
+							<label class="bascule_label" for="bascule1">OUI</label>
+							<label class="bascule_label2" for="bascule12">NON</label>
 				      </div>
 						<button class="but6">Continuer</button>
 					</div>

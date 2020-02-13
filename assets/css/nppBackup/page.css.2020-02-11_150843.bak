@@ -1,0 +1,17 @@
+body{
+	background-image: url('../img/meteo1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	width: 100%;
+	background-color: #ffffff;
+    padding: 2em;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    border-radius: 4px;
+}
+.c__mdp img{
+	width: 4%;
+	filter: opacity(0.4);

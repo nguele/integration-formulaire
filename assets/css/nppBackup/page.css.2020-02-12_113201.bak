@@ -1,0 +1,72 @@
+body{
+	background-color:blue;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+main{
+	background-image: url('../img/meteo1.png');
+	width:100%;
+	height:100vh;
+	display: flex;
+    justify-content: center;
+	padding:0;
+    margin: 0;
+}
+form{
+   display: flex;
+   justify-content: center;
+   width:450px; /* largeur */
+   height:610px; /*hauteur */
+   border-radius: 4px;
+   background-color:#FFF;
+   padding: 6px;
+   border: 1px solid #FFF;
+   margin-top:150px;
+   margin-left:-200px;
+   
+
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	display: flex;
+   justify-content: center;
+    margin-top:10px;
+   	
+}
+
+}
+.bloc1{
+	display: flex;
+   justify-content: center; /* disposition du formulaire*/
+   right:10%;
+  
+}
+.bloc2{
+	 display: flex;
+   justify-content: center;/* disposition du formulaire*/
+   left:1%;
+}
+.bloc3, .bloc4, .bloc5, .bloc6{
+   display: flex;
+   justify-content: center; /* disposition du formulaire*/
+   
+}
+
+input [type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/vue.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;

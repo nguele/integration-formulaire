@@ -1,0 +1,28 @@
+body{
+	background-image: url('../img/meteo1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	width: 50%;
+	background-color: #ffffff;
+    padding: 7em;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    border-radius: 6px;
+	background-position:center;
+}
+
+input type="password"{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}

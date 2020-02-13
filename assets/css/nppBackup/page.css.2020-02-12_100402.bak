@@ -1,0 +1,53 @@
+body{
+	background-image: url('../img/meteo1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+form{
+   display: flex;
+   justify-content: center;
+   top:35%; /*hauteur du formulaire*/
+   left:100%;
+   right:100%;
+   width:300px; /* largeur */
+   height:97%; /*hauteur */
+   background-color:#FFF;
+}
+input,form{
+	display:flex;
+	width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	
+   
+}
+input [type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/vue.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.bloc1{
+ /* disposition du formulaire*/
+   right:10%;
+}
+.bloc2{
+	  disposition du formulaire*/
+   left:1%;
+}
+.bloc3, .bloc4, .bloc5, .bloc6{
+    /* disposition du formulaire*/
+   
+}

@@ -22,7 +22,6 @@ main{
 	background-position:center;
 	color:#16354e;
 	magin:auto;
-	background-attachment:fixed;
 }
 form{
    display: flex;
@@ -32,10 +31,11 @@ form{
    background-color:#FFF;
    padding:10px;
    border: 1px solid #FFF;
+   margin:auto;
    margin-top:150px;
    margin-left:420px;
    margin-bottom: 20px;
-   
+   background-attachment:fixed;
 }
 input{
     padding: 8px;

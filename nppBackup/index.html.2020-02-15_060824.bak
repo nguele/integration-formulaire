@@ -10,7 +10,7 @@
 	<body>
 		<main>
 			<form action="" method="post">
-				<div class="blocg">
+				<div class="bloc g">
 					<div class="bloca">
 						<div class="bloc1">
 							<label class="label" for="nom">Prénom</label>

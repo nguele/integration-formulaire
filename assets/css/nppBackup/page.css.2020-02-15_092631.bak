@@ -21,8 +21,6 @@ main{
     background-repeat: no-repeat;
 	background-position:center;
 	color:#16354e;
-	magin:auto;
-	background-attachment:fixed;
 }
 form{
    display: flex;
@@ -35,7 +33,6 @@ form{
    margin-top:150px;
    margin-left:420px;
    margin-bottom: 20px;
-   
 }
 input{
     padding: 8px;
@@ -49,7 +46,7 @@ input{
    display: flex;
 }
 .bloc2{
-   margin-left:14px;
+   margin-left:8px;
 }
 .bloc2>input{
    width:210px;
@@ -63,8 +60,8 @@ input{
 input[type=password]{
     background-image: url('vue.png');
     background-repeat: no-repeat;
-	background-size:19px;
-	background-position:98%;
+	background-size:98%;
+	background-position:right;
 	padding-right:10px;
 	border: 1px solid #ccc;
 }

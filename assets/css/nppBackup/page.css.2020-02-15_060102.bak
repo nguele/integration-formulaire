@@ -20,36 +20,34 @@ main{
 	display: flex;
     background-repeat: no-repeat;
 	background-position:center;
-	color:#16354e;
-	magin:auto;
-	background-attachment:fixed;
+	
 }
 form{
    display: flex;
    justify-content: left;
    width:500px; /* largeur */
-   height:620px; /*hauteur */
+   height:600px; /*hauteur */
+   
    background-color:#FFF;
-   padding:10px;
+   padding: 6px;
    border: 1px solid #FFF;
    margin-top:150px;
-   margin-left:420px;
+   margin-left:400px;
    margin-bottom: 20px;
-   
 }
 input{
-    padding: 8px;
+    padding: 10px;
+    
 	display: flex;
     justify-content: center;
+    
 }
-.blocg{
-    justify-content: center;
-}
+
 .bloca{
    display: flex;
 }
 .bloc2{
-   margin-left:14px;
+   margin-left:10px;
 }
 .bloc2>input{
    width:210px;
@@ -63,10 +61,9 @@ input{
 input[type=password]{
     background-image: url('vue.png');
     background-repeat: no-repeat;
-	background-size:19px;
-	background-position:98%;
+	background-size:contain;
+	background-position:right;
 	padding-right:10px;
-	border: 1px solid #ccc;
 }
 .bt2{
 	display: flex;
@@ -116,18 +113,16 @@ input[type=password]{
 {
 	display: flex;
 }
-.box1>label{
-	justify-content:center;
-	align-items:center;
-	display:flex;
-}
+
 input[type="checkbox"]
 {
 	display: none; 
+	
 }
 .box1:checked + label
 {
 	background-color: black;
+	
 }
 
 .box1 
@@ -137,6 +132,7 @@ input[type="checkbox"]
 	border-radius: 2px;
 	height: 30px;
 	width: 70px;	
+	
 }
 .bascule_label{
 	color: transparent;
@@ -162,13 +158,13 @@ input[type="checkbox"]
 	background-color: #b8c2ca;
 	border-radius: 3px;
 }
-#bascule1:checked~.bascule_label
+#bascule1:checked ~ .bascule_label
 {
 	background-color: #999999;
 	color: #fff;
 }
 
-#bascule1:not(:checked)~.bascule_label2
+#bascule1:not(:checked) ~ .bascule_label2
 {
 	background-color: #3498db;
 	color: #fff;

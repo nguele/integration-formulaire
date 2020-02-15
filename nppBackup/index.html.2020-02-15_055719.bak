@@ -10,7 +10,7 @@
 	<body>
 		<main>
 			<form action="" method="post">
-				<div class="blocg">
+				<div class="bloc g">
 					<div class="bloca">
 						<div class="bloc1">
 							<label class="label" for="nom">Prénom</label>
@@ -21,22 +21,18 @@
 							<input type="text" name="nom" id="nom" required placeholder="Votre nom">
 						</div>
 					</div>
-					<br>
 					<div class="bloc3">
 						<label for="email">Adresse e-mail</label>
 						<input type="email" name="email" id="mail" required placeholder="Votre adresse e-mail">
 					</div>
-					<br>
 					<div class="bloc4">
 						<label for="mdp">Mot de passe</label>
 						<input type="password" name="mdp" id="mdp" width="50px" required placeholder="Choisissez votre mot de passe">
 					</div>
-					<br>
 					<div class="bloc5">
 						<label for="texte">Postes recherchés</label>
 						<input type="texte" class="form-control" id="texte" placeholder="Ex: chef de projet, cusinier..." name="texte">
 					</div>
-					<br>
 					<div class="bloc6">
 						<label for="texte">Où souhaitez-vous travailler?</label>
 						<input type="texte" class="form-control" id="pwd" placeholder="Ex: essonne,Nantes, Bretagne" name="texte">

@@ -21,21 +21,9 @@ main{
     background-repeat: no-repeat;
 	background-position:center;
 	color:#16354e;
-	magin:auto;
-	background-attachment:fixed;
 }
 form{
-   display: flex;
-   justify-content: left;
-   width:500px; /* largeur */
-   height:620px; /*hauteur */
-   background-color:#FFF;
-   padding:10px;
-   border: 1px solid #FFF;
-   margin-top:150px;
-   margin-left:420px;
-   margin-bottom: 20px;
-   
+ margin:auto;
 }
 input{
     padding: 8px;
@@ -49,7 +37,7 @@ input{
    display: flex;
 }
 .bloc2{
-   margin-left:14px;
+   margin-left:8px;
 }
 .bloc2>input{
    width:210px;
